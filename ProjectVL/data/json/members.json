@@ -1,0 +1,732 @@
+[
+    {
+        "name":  "Choi Yu-jin",
+        "birthday":  "1996-08-12",
+        "weight":  "42 kg",
+        "height":  "162 cm",
+        "nationality":  "Korean",
+        "agency":  "WAKEONE",
+        "bandName":  "Kep1er",
+        "bandKey":  "kep1er0000"
+    },
+    {
+        "name":  "Sakamoto Mashiro",
+        "birthday":  "1999-12-16",
+        "weight":  "45 kg",
+        "height":  "157 cm",
+        "nationality":  "Japanese",
+        "agency":  "WAKEONE",
+        "bandName":  "Kep1er",
+        "bandKey":  "kep1er0000"
+    },
+    {
+        "name":  "Shen Xiaoting",
+        "birthday":  "1999-11-12",
+        "weight":  "50 kg",
+        "height":  "168 cm",
+        "nationality":  "Chinese",
+        "agency":  "WAKEONE",
+        "bandName":  "Kep1er",
+        "bandKey":  "kep1er0000"
+    },
+    {
+        "name":  "Kim Chaehyun",
+        "birthday":  "2002-04-26",
+        "weight":  "47 kg",
+        "height":  "160 cm",
+        "nationality":  "Korean",
+        "agency":  "WAKEONE",
+        "bandName":  "Kep1er",
+        "bandKey":  "kep1er0000"
+    },
+    {
+        "name":  "Kim Dayeon",
+        "birthday":  "2003-03-02",
+        "weight":  "49 kg",
+        "height":  "158 cm",
+        "nationality":  "Korean",
+        "agency":  "WAKEONE",
+        "bandName":  "Kep1er",
+        "bandKey":  "kep1er0000"
+    },
+    {
+        "name":  "Ezaki Hikaru",
+        "birthday":  "2004-03-12",
+        "weight":  "46 kg",
+        "height":  "154 cm",
+        "nationality":  "Japanese",
+        "agency":  "WAKEONE",
+        "bandName":  "Kep1er",
+        "bandKey":  "kep1er0000"
+    },
+    {
+        "name":  "Huening Bahiyyih",
+        "birthday":  "2004-07-27",
+        "weight":  "50 kg",
+        "height":  "166 cm",
+        "nationality":  "Korean-American",
+        "agency":  "WAKEONE",
+        "bandName":  "Kep1er",
+        "bandKey":  "kep1er0000"
+    },
+    {
+        "name":  "Seo Youngeun",
+        "birthday":  "2005-12-27",
+        "weight":  "45 kg",
+        "height":  "159 cm",
+        "nationality":  "Korean",
+        "agency":  "WAKEONE",
+        "bandName":  "Kep1er",
+        "bandKey":  "kep1er0000"
+    },
+    {
+        "name":  "Kang Yeseo",
+        "birthday":  "2005-08-22",
+        "weight":  "46 kg",
+        "height":  "157 cm",
+        "nationality":  "Korean",
+        "agency":  "WAKEONE",
+        "bandName":  "Kep1er",
+        "bandKey":  "kep1er0000"
+    },
+    {
+        "name":  "Kim Ji-soo",
+        "birthday":  "1995-01-03",
+        "weight":  "45 kg",
+        "height":  "162 cm",
+        "nationality":  "Korean",
+        "agency":  "YG Entertainment",
+        "bandName":  "Black Pink",
+        "bandKey":  "blackpink0"
+    },
+    {
+        "name":  "Jennie Kim",
+        "birthday":  "1996-01-16",
+        "weight":  "50 kg",
+        "height":  "163 cm",
+        "nationality":  "Korean",
+        "agency":  "YG Entertainment",
+        "bandName":  "Black Pink",
+        "bandKey":  "blackpink0"
+    },
+    {
+        "name":  "Roseanne Park (Rosé)",
+        "birthday":  "1997-02-11",
+        "weight":  "45 kg",
+        "height":  "168 cm",
+        "nationality":  "Korean-New Zealand",
+        "agency":  "YG Entertainment",
+        "bandName":  "Black Pink",
+        "bandKey":  "blackpink0"
+    },
+    {
+        "name":  "Lalisa Manoban (Lisa)",
+        "birthday":  "1997-03-27",
+        "weight":  "46 kg",
+        "height":  "166.5 cm",
+        "nationality":  "Thai",
+        "agency":  "YG Entertainment",
+        "bandName":  "Black Pink",
+        "bandKey":  "blackpink0"
+    },
+    {
+        "name":  "Im Nayeon",
+        "birthday":  "1995-09-22",
+        "weight":  "47 kg",
+        "height":  "163 cm",
+        "nationality":  "Korean",
+        "agency":  "JYP Entertainment",
+        "bandName":  "TWICE",
+        "bandKey":  "twice00000"
+    },
+    {
+        "name":  "Yoo Jeongyeon",
+        "birthday":  "1996-11-01",
+        "weight":  "49 kg",
+        "height":  "167 cm",
+        "nationality":  "Korean",
+        "agency":  "JYP Entertainment",
+        "bandName":  "TWICE",
+        "bandKey":  "twice00000"
+    },
+    {
+        "name":  "Hirai Momo",
+        "birthday":  "1996-11-09",
+        "weight":  "48 kg",
+        "height":  "167 cm",
+        "nationality":  "Japanese",
+        "agency":  "JYP Entertainment",
+        "bandName":  "TWICE",
+        "bandKey":  "twice00000"
+    },
+    {
+        "name":  "Minatozaki Sana",
+        "birthday":  "1996-12-29",
+        "weight":  "48 kg",
+        "height":  "163 cm",
+        "nationality":  "Japanese",
+        "agency":  "JYP Entertainment",
+        "bandName":  "TWICE",
+        "bandKey":  "twice00000"
+    },
+    {
+        "name":  "Park Jihyo",
+        "birthday":  "1997-02-01",
+        "weight":  "49 kg",
+        "height":  "160 cm",
+        "nationality":  "Korean",
+        "agency":  "JYP Entertainment",
+        "bandName":  "TWICE",
+        "bandKey":  "twice00000"
+    },
+    {
+        "name":  "Myoui Mina",
+        "birthday":  "1997-03-24",
+        "weight":  "46 kg",
+        "height":  "163 cm",
+        "nationality":  "Japanese-American",
+        "agency":  "JYP Entertainment",
+        "bandName":  "TWICE",
+        "bandKey":  "twice00000"
+    },
+    {
+        "name":  "Kim Dahyun",
+        "birthday":  "1998-05-28",
+        "weight":  "48 kg",
+        "height":  "165 cm",
+        "nationality":  "Korean",
+        "agency":  "JYP Entertainment",
+        "bandName":  "TWICE",
+        "bandKey":  "twice00000"
+    },
+    {
+        "name":  "Son Chaeyoung",
+        "birthday":  "1999-04-23",
+        "weight":  "48 kg",
+        "height":  "159 cm",
+        "nationality":  "Korean",
+        "agency":  "JYP Entertainment",
+        "bandName":  "TWICE",
+        "bandKey":  "twice00000"
+    },
+    {
+        "name":  "Chou Tzuyu",
+        "birthday":  "1999-06-14",
+        "weight":  "48 kg",
+        "height":  "170 cm",
+        "nationality":  "Taiwanese",
+        "agency":  "JYP Entertainment",
+        "bandName":  "TWICE",
+        "bandKey":  "twice00000"
+    },
+    {
+        "name":  "Kim Taeyeon",
+        "birthday":  "1989-03-09",
+        "weight":  "45 kg",
+        "height":  "160 cm",
+        "nationality":  "Korean",
+        "agency":  "SM Entertainment",
+        "bandName":  "Girls\u0027 Generation",
+        "bandKey":  "girlsgener"
+    },
+    {
+        "name":  "Jessica Jung",
+        "birthday":  "1989-04-18",
+        "weight":  "46 kg",
+        "height":  "163 cm",
+        "nationality":  "Korean-American",
+        "agency":  "Formerly SM Entertainment",
+        "bandName":  "Girls\u0027 Generation",
+        "bandKey":  "girlsgener"
+    },
+    {
+        "name":  "Sunny (Lee Soon-kyu)",
+        "birthday":  "1989-05-15",
+        "weight":  "44 kg",
+        "height":  "155 cm",
+        "nationality":  "Korean-American",
+        "agency":  "SM Entertainment",
+        "bandName":  "Girls\u0027 Generation",
+        "bandKey":  "girlsgener"
+    },
+    {
+        "name":  "Tiffany Young (Stephanie Hwang)",
+        "birthday":  "1989-08-01",
+        "weight":  "51 kg",
+        "height":  "163 cm",
+        "nationality":  "Korean-American",
+        "agency":  "Formerly SM Entertainment",
+        "bandName":  "Girls\u0027 Generation",
+        "bandKey":  "girlsgener"
+    },
+    {
+        "name":  "Kim Hyoyeon",
+        "birthday":  "1989-09-22",
+        "weight":  "49 kg",
+        "height":  "160 cm",
+        "nationality":  "Korean",
+        "agency":  "SM Entertainment",
+        "bandName":  "Girls\u0027 Generation",
+        "bandKey":  "girlsgener"
+    },
+    {
+        "name":  "Kwon Yuri",
+        "birthday":  "1989-12-05",
+        "weight":  "45 kg",
+        "height":  "166 cm",
+        "nationality":  "Korean",
+        "agency":  "SM Entertainment",
+        "bandName":  "Girls\u0027 Generation",
+        "bandKey":  "girlsgener"
+    },
+    {
+        "name":  "Choi Sooyoung",
+        "birthday":  "1990-02-10",
+        "weight":  "48 kg",
+        "height":  "170 cm",
+        "nationality":  "Korean",
+        "agency":  "SM Entertainment",
+        "bandName":  "Girls\u0027 Generation",
+        "bandKey":  "girlsgener"
+    },
+    {
+        "name":  "Im Yoona",
+        "birthday":  "1990-05-30",
+        "weight":  "48 kg",
+        "height":  "168 cm",
+        "nationality":  "Korean",
+        "agency":  "SM Entertainment",
+        "bandName":  "Girls\u0027 Generation",
+        "bandKey":  "girlsgener"
+    },
+    {
+        "name":  "Seo Ju-hyun (Seohyun)",
+        "birthday":  "1991-06-28",
+        "weight":  "48 kg",
+        "height":  "168 cm",
+        "nationality":  "Korean",
+        "agency":  "Formerly SM Entertainment",
+        "bandName":  "Girls\u0027 Generation",
+        "bandKey":  "girlsgener"
+    },
+    {
+        "name":  "Minji (Kim Min-ji)",
+        "birthday":  "2004-05-07",
+        "weight":  "48 kg",
+        "height":  "169 cm",
+        "nationality":  "Korean",
+        "agency":  "ADOR",
+        "bandName":  "New Jeans",
+        "bandKey":  "newjeans00"
+    },
+    {
+        "name":  "Hanni (Phạm Ngọc Hân)",
+        "birthday":  "2004-10-06",
+        "weight":  "46 kg",
+        "height":  "161 cm",
+        "nationality":  "Vietnamese-Australian",
+        "agency":  "ADOR",
+        "bandName":  "New Jeans",
+        "bandKey":  "newjeans00"
+    },
+    {
+        "name":  "Danielle (Danielle Marsh / Mo Ji-hye)",
+        "birthday":  "2005-04-11",
+        "weight":  "45 kg",
+        "height":  "165 cm",
+        "nationality":  "Korean-Australian",
+        "agency":  "ADOR",
+        "bandName":  "New Jeans",
+        "bandKey":  "newjeans00"
+    },
+    {
+        "name":  "Haerin (Kang Haerin)",
+        "birthday":  "2006-05-15",
+        "weight":  "47 kg",
+        "height":  "166 cm",
+        "nationality":  "Korean",
+        "agency":  "ADOR",
+        "bandName":  "New Jeans",
+        "bandKey":  "newjeans00"
+    },
+    {
+        "name":  "Hyein (Lee Hye-in)",
+        "birthday":  "2008-04-21",
+        "weight":  "48 kg",
+        "height":  "170 cm",
+        "nationality":  "Korean",
+        "agency":  "ADOR",
+        "bandName":  "New Jeans",
+        "bandKey":  "newjeans00"
+    },
+    {
+        "name":  "Yeji (Hwang Ye-ji)",
+        "birthday":  "2000-05-26",
+        "weight":  "46 kg",
+        "height":  "170 cm",
+        "nationality":  "Korean",
+        "agency":  "JYP Entertainment",
+        "bandName":  "ITZY",
+        "bandKey":  "itzy000000"
+    },
+    {
+        "name":  "Lia (Choi Ji-su)",
+        "birthday":  "2000-07-21",
+        "weight":  "43 kg",
+        "height":  "162 cm",
+        "nationality":  "Korean",
+        "agency":  "JYP Entertainment",
+        "bandName":  "ITZY",
+        "bandKey":  "itzy000000"
+    },
+    {
+        "name":  "Ryujin (Shin Ryu-jin)",
+        "birthday":  "2001-04-17",
+        "weight":  "47 kg",
+        "height":  "164 cm",
+        "nationality":  "Korean",
+        "agency":  "JYP Entertainment",
+        "bandName":  "ITZY",
+        "bandKey":  "itzy000000"
+    },
+    {
+        "name":  "Chaeryeong (Lee Chae-ryeong)",
+        "birthday":  "2001-06-05",
+        "weight":  "46 kg",
+        "height":  "168 cm",
+        "nationality":  "Korean",
+        "agency":  "JYP Entertainment",
+        "bandName":  "ITZY",
+        "bandKey":  "itzy000000"
+    },
+    {
+        "name":  "Yuna (Shin Yu-na)",
+        "birthday":  "2003-12-09",
+        "weight":  "48 kg",
+        "height":  "170 cm",
+        "nationality":  "Korean",
+        "agency":  "JYP Entertainment",
+        "bandName":  "ITZY",
+        "bandKey":  "itzy000000"
+    },
+    {
+        "name":  "Karina (Yoo Ji-min)",
+        "birthday":  "2000-04-11",
+        "weight":  "45 kg",
+        "height":  "167 cm",
+        "nationality":  "Korean",
+        "agency":  "SM Entertainment",
+        "bandName":  "AESPA",
+        "bandKey":  "aespa00000"
+    },
+    {
+        "name":  "Giselle (Uchinaga Aeri)",
+        "birthday":  "2000-10-30",
+        "weight":  "45 kg",
+        "height":  "166 cm",
+        "nationality":  "Japanese-Korean",
+        "agency":  "SM Entertainment",
+        "bandName":  "AESPA",
+        "bandKey":  "aespa00000"
+    },
+    {
+        "name":  "Winter (Kim Min-jeong)",
+        "birthday":  "2001-01-01",
+        "weight":  "43 kg",
+        "height":  "165 cm",
+        "nationality":  "Korean",
+        "agency":  "SM Entertainment",
+        "bandName":  "AESPA",
+        "bandKey":  "aespa00000"
+    },
+    {
+        "name":  "Ningning (Ning Yizhuo)",
+        "birthday":  "2002-10-23",
+        "weight":  "43 kg",
+        "height":  "162 cm",
+        "nationality":  "Chinese",
+        "agency":  "SM Entertainment",
+        "bandName":  "AESPA",
+        "bandKey":  "aespa00000"
+    },
+    {
+        "name":  "Irene (Bae Joo-hyun)",
+        "birthday":  "1991-03-29",
+        "weight":  "44 kg",
+        "height":  "160 cm",
+        "nationality":  "Korean",
+        "agency":  "SM Entertainment",
+        "bandName":  "Red Velvet",
+        "bandKey":  "redvelvet0"
+    },
+    {
+        "name":  "Seulgi (Kang Seul-gi)",
+        "birthday":  "1994-02-10",
+        "weight":  "47 kg",
+        "height":  "164 cm",
+        "nationality":  "Korean",
+        "agency":  "SM Entertainment",
+        "bandName":  "Red Velvet",
+        "bandKey":  "redvelvet0"
+    },
+    {
+        "name":  "Wendy (Son Seung-wan)",
+        "birthday":  "1994-02-21",
+        "weight":  "45 kg",
+        "height":  "160 cm",
+        "nationality":  "Korean",
+        "agency":  "SM Entertainment",
+        "bandName":  "Red Velvet",
+        "bandKey":  "redvelvet0"
+    },
+    {
+        "name":  "Joy (Park Soo-young)",
+        "birthday":  "1996-09-03",
+        "weight":  "49 kg",
+        "height":  "168 cm",
+        "nationality":  "Korean",
+        "agency":  "SM Entertainment",
+        "bandName":  "Red Velvet",
+        "bandKey":  "redvelvet0"
+    },
+    {
+        "name":  "Yeri (Kim Ye-rim)",
+        "birthday":  "1999-03-05",
+        "weight":  "49 kg",
+        "height":  "160 cm",
+        "nationality":  "Korean",
+        "agency":  "SM Entertainment",
+        "bandName":  "Red Velvet",
+        "bandKey":  "redvelvet0"
+    },
+    {
+        "name":  "Yujin (An Yu-jin)",
+        "birthday":  "2003-09-01",
+        "weight":  "48 kg",
+        "height":  "172 cm",
+        "nationality":  "Korean",
+        "agency":  "Starship Entertainment",
+        "bandName":  "IVE",
+        "bandKey":  "ive0000000"
+    },
+    {
+        "name":  "Gaeul (Kim Ga-eul)",
+        "birthday":  "2002-09-24",
+        "weight":  "45 kg",
+        "height":  "166 cm",
+        "nationality":  "Korean",
+        "agency":  "Starship Entertainment",
+        "bandName":  "IVE",
+        "bandKey":  "ive0000000"
+    },
+    {
+        "name":  "Rei (Naoi Rei)",
+        "birthday":  "2004-02-03",
+        "weight":  "47 kg",
+        "height":  "169 cm",
+        "nationality":  "Japanese",
+        "agency":  "Starship Entertainment",
+        "bandName":  "IVE",
+        "bandKey":  "ive0000000"
+    },
+    {
+        "name":  "Wonyoung (Jang Won-young)",
+        "birthday":  "2004-08-31",
+        "weight":  "47 kg",
+        "height":  "173 cm",
+        "nationality":  "Korean",
+        "agency":  "Starship Entertainment",
+        "bandName":  "IVE",
+        "bandKey":  "ive0000000"
+    },
+    {
+        "name":  "Liz (Kim Ji-won)",
+        "birthday":  "2004-11-21",
+        "weight":  "47 kg",
+        "height":  "170 cm",
+        "nationality":  "Korean",
+        "agency":  "Starship Entertainment",
+        "bandName":  "IVE",
+        "bandKey":  "ive0000000"
+    },
+    {
+        "name":  "Leeseo (Lee Hyun-seo)",
+        "birthday":  "2007-02-21",
+        "weight":  "44 kg",
+        "height":  "170 cm",
+        "nationality":  "Korean",
+        "agency":  "Starship Entertainment",
+        "bandName":  "IVE",
+        "bandKey":  "ive0000000"
+    },
+    {
+        "name":  "Miyeon (Cho Mi-yeon)",
+        "birthday":  "1997-01-31",
+        "weight":  "48 kg",
+        "height":  "161 cm",
+        "nationality":  "Korean",
+        "agency":  "Cube Entertainment",
+        "bandName":  "(G)I-DLE",
+        "bandKey":  "gidle00000"
+    },
+    {
+        "name":  "Minnie (Nicha Yontararak)",
+        "birthday":  "1997-10-23",
+        "weight":  "45 kg",
+        "height":  "164 cm",
+        "nationality":  "Thai",
+        "agency":  "Cube Entertainment",
+        "bandName":  "(G)I-DLE",
+        "bandKey":  "gidle00000"
+    },
+    {
+        "name":  "Soojin (Seo Su-jin)",
+        "birthday":  "1998-03-09",
+        "weight":  "43 kg",
+        "height":  "164 cm",
+        "nationality":  "Korean",
+        "agency":  "Formerly Cube Entertainment",
+        "bandName":  "(G)I-DLE",
+        "bandKey":  "gidle00000"
+    },
+    {
+        "name":  "Soyeon (Jeon So-yeon)",
+        "birthday":  "1998-08-26",
+        "weight":  "45 kg",
+        "height":  "157 cm",
+        "nationality":  "Korean",
+        "agency":  "Cube Entertainment",
+        "bandName":  "(G)I-DLE",
+        "bandKey":  "gidle00000"
+    },
+    {
+        "name":  "Yuqi (Song Yuqi)",
+        "birthday":  "1999-09-23",
+        "weight":  "43 kg",
+        "height":  "162 cm",
+        "nationality":  "Chinese",
+        "agency":  "Cube Entertainment",
+        "bandName":  "(G)I-DLE",
+        "bandKey":  "gidle00000"
+    },
+    {
+        "name":  "Shuhua (Yeh Shu-hua)",
+        "birthday":  "2000-01-06",
+        "weight":  "45 kg",
+        "height":  "161 cm",
+        "nationality":  "Taiwanese",
+        "agency":  "Cube Entertainment",
+        "bandName":  "(G)I-DLE",
+        "bandKey":  "gidle00000"
+    },
+    {
+        "name":  "Kim Chaewon",
+        "birthday":  "2000-08-01",
+        "weight":  "42 kg",
+        "height":  "163 cm",
+        "nationality":  "Korean",
+        "agency":  "Source Music",
+        "bandName":  "LE SSERAFIM",
+        "bandKey":  "lesserafim"
+    },
+    {
+        "name":  "Sakura Miyawaki",
+        "birthday":  "1998-03-19",
+        "weight":  "42 kg",
+        "height":  "163 cm",
+        "nationality":  "Japanese",
+        "agency":  "Source Music",
+        "bandName":  "LE SSERAFIM",
+        "bandKey":  "lesserafim"
+    },
+    {
+        "name":  "Huh Yunjin",
+        "birthday":  "2001-10-08",
+        "weight":  "54 kg",
+        "height":  "171 cm",
+        "nationality":  "Korean-American",
+        "agency":  "Source Music",
+        "bandName":  "LE SSERAFIM",
+        "bandKey":  "lesserafim"
+    },
+    {
+        "name":  "Kazuha Nakamura",
+        "birthday":  "2003-08-09",
+        "weight":  "57 kg",
+        "height":  "170 cm",
+        "nationality":  "Japanese",
+        "agency":  "Source Music",
+        "bandName":  "LE SSERAFIM",
+        "bandKey":  "lesserafim"
+    },
+    {
+        "name":  "Hong Eunchae",
+        "birthday":  "2006-11-10",
+        "weight":  "46 kg",
+        "height":  "168 cm",
+        "nationality":  "Korean",
+        "agency":  "Source Music",
+        "bandName":  "LE SSERAFIM",
+        "bandKey":  "lesserafim"
+    },
+    {
+        "name":  "Hyebin",
+        "birthday":  "1996-01-12",
+        "weight":  "48 kg",
+        "height":  "165 cm",
+        "nationality":  "Korean",
+        "agency":  "MLD Entertainment",
+        "bandName":  "MOMOLAND",
+        "bandKey":  "momoland00"
+    },
+    {
+        "name":  "Jane",
+        "birthday":  "1997-12-20",
+        "weight":  "46 kg",
+        "height":  "166 cm",
+        "nationality":  "Korean",
+        "agency":  "MLD Entertainment",
+        "bandName":  "MOMOLAND",
+        "bandKey":  "momoland00"
+    },
+    {
+        "name":  "Nayun",
+        "birthday":  "1998-07-31",
+        "weight":  "47 kg",
+        "height":  "167 cm",
+        "nationality":  "Korean",
+        "agency":  "MLD Entertainment",
+        "bandName":  "MOMOLAND",
+        "bandKey":  "momoland00"
+    },
+    {
+        "name":  "JooE",
+        "birthday":  "1999-08-18",
+        "weight":  "48 kg",
+        "height":  "164 cm",
+        "nationality":  "Korean",
+        "agency":  "MLD Entertainment",
+        "bandName":  "MOMOLAND",
+        "bandKey":  "momoland00"
+    },
+    {
+        "name":  "Ahin",
+        "birthday":  "1999-09-27",
+        "weight":  "46 kg",
+        "height":  "163 cm",
+        "nationality":  "Korean",
+        "agency":  "MLD Entertainment",
+        "bandName":  "MOMOLAND",
+        "bandKey":  "momoland00"
+    },
+    {
+        "name":  "Nancy",
+        "birthday":  "2000-04-13",
+        "weight":  "46 kg",
+        "height":  "162 cm",
+        "nationality":  "Korean-American",
+        "agency":  "MLD Entertainment",
+        "bandName":  "MOMOLAND",
+        "bandKey":  "momoland00"
+    }
+]

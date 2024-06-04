@@ -1,94 +1,91 @@
-//Buscador de informacion de grupos de kpop
-
-//Clase que puede almacenar cualquier elemento del json girls
-class Member {
-    constructor(name, birthday, weight, height, nationality, agency, bandName) {
-      this.name = name;
-      this.birthday = birthday;
-      this.weight = weight;
-      this.height = height;
-      this.nationality = nationality;
-      this.agency = agency;
-      this.bandName = bandName;
+function generateCarouselItems(filteredBands) {
+    const bandsData = filteredBands || JSON.parse(localStorage.getItem('bands'));
+    if (!bandsData) {
+        console.error('No se han encontrado datos de bandas en el localStorage');
+        return;
     }
-}
-  
-//Clase que puede almacenar cualquier elemento del json bands
-class Band {
-    constructor(bandName, agency, membersAmount, yearsActive, numberOfAlbums) {
-      this.bandName = bandName;
-      this.agency = agency;
-      this.membersAmount = membersAmount;
-      this.yearsActive = yearsActive;
-      this.numberOfAlbums = numberOfAlbums;
-    }
-}
 
-// Funcion generica para cargar un archivo json con una lista de elementos en un array segun la clase del elemento
-async function loadData(url, ClassType) {
-    try {
-      const response = await fetch(url);
-      const data = await response.json();
-      return data.map(item => new ClassType(...Object.values(item)));
-    } catch (error) {
-      console.error('Ha ocurrido un error al cargar el archivo ['+ url +']:', error);
-      return [];
-    }
-}
+    const carouselInner = document.querySelector('.carousel-inner');
+    carouselInner.innerHTML = '';
 
-//Funcion que carga los json en la carpeta assets
-async function loadKpopData(membersUrl, bandsUrl) {
-    const members = await loadData(membersUrl, Member);
-    const bands = await loadData(bandsUrl, Band);
-    return { members, bands };
-}
+    const isTotalLoad = filteredBands == null || filteredBands.length === 0 ? true : false;
 
-// Funcion generica para buscar un string dentro de un array de elementos
-function filterArray(array, searchString) {
-    return array.filter(item => 
-        Object.values(item).some(value => 
-            value.toString().toLowerCase().includes(searchString.toLowerCase())
-        )
-    );
-}
+    bandsData.forEach((band, index) => {
+        const itemDiv = document.createElement('div');
+        itemDiv.className = `carousel-item ${index === 0 ? 'active' : ''}`;
 
-// Funcion que controla el ingreso del string para la busqueda
-function searchAndPrint(members, bands) {
-    let searchString = '';
+        const captionDiv = document.createElement('div');
+        captionDiv.className = 'carousel-caption d-none d-md-block carousel-section';
+
+        const h5 = document.createElement('h5');
+        h5.textContent = band.bandName;
+        captionDiv.appendChild(h5);
+
+        const captionDetailDiv = document.createElement('div');
+        captionDetailDiv.className = 'carousel-caption-details';
+
+        const agencyP = document.createElement('p');
+        agencyP.textContent = "Agencia: " + band.agency;
+        captionDetailDiv.appendChild(agencyP);
+
+        const numberOfMembersP = document.createElement('p');
+        numberOfMembersP.textContent = "Cantidad Miembros: " + band.membersAmount;
+        captionDetailDiv.appendChild(numberOfMembersP);
+
+        const yearsActiveP = document.createElement('p');
+        yearsActiveP.textContent = "Años activa: " + band.yearsActive;
+        captionDetailDiv.appendChild(yearsActiveP);
+
+        const results = document.createElement('p');
     
-    while (searchString.length < 3) {
-        searchString = prompt('Ingrese al menos 3 caracteres para la búsqueda:');
-        if (searchString === null) {
-            console.log('Busqueda cancelada por el usuario');
+        results.textContent = isTotalLoad ? "Índice banda actual / Bandas en total: " + (index + 1) + "/" + bandsData.length : "Índice banda actual / Bandas encontradas: " + (index + 1) + "/" + bandsData.length;
+        captionDetailDiv.appendChild(results);
+
+        captionDiv.appendChild(captionDetailDiv);
+
+        const img = document.createElement('img');
+        img.src = `assets/images/bands/${band.key}/carousel.png`;
+        img.className = 'd-block w-100 carousel-image';
+        img.alt = band.bandName;
+
+        itemDiv.appendChild(captionDiv);
+        itemDiv.appendChild(img);
+        carouselInner.appendChild(itemDiv);
+    });
+}
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    generateCarouselItems();
+
+    const searchForm = document.getElementById('searchForm');
+    const searchInput = document.getElementById('searchInput');
+
+    searchForm.addEventListener('submit', (event) => {
+        event.preventDefault();
+        const searchTerm = searchInput.value.trim();
+
+        if (searchTerm.length < 3) {
+            alert('Por favor ingrese al menos 3 caracteres');
             return;
         }
-        if (searchString.length < 3) {
-            alert('Por favor ingrese al menos 3 caracteres.');
+
+        const bandsData = JSON.parse(localStorage.getItem('bands'));
+        if (!bandsData) {
+            console.error('No se han encontrado datos de bandas en el localStorage');
+            return;
         }
-    }
-  
-    const matchingMembers = filterArray(members, searchString);
-    const matchingBands = filterArray(bands, searchString);
-  
-    if (matchingMembers.length > 0) {
-        console.log('Miembros encontrados:', matchingMembers);
-    } else {
-        console.log('No se han encontrado miembros que calcen con el input ingresado.');
-    }
-    
-    if (matchingBands.length > 0) {
-        console.log('Bandas encontradas:', matchingBands);
-    } else {
-       console.log('No se han encontrado bandas que calcen con el input ingresado.');
-    }
-}
 
-const membersUrl = 'assets/members.json';
-const bandsUrl = 'assets/bands.json';
-    
-loadKpopData(membersUrl, bandsUrl).then(data => {
-    console.log('Members:', data.members);
-    console.log('Bands:', data.bands);
+        const filteredBands = bandsData.filter(band => 
+            Object.values(band).some(value => 
+                value.toString().toLowerCase().includes(searchTerm.toLowerCase())
+            )
+        );
 
-    searchAndPrint(data.members, data.bands);
+        if (filteredBands.length === 0) {
+            alert('No se encontraron coincidencias. Cargando todas las bandas.');
+            generateCarouselItems();
+        } else {
+            generateCarouselItems(filteredBands);
+        }
+    });
 });

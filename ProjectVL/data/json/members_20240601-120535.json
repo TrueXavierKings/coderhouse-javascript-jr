@@ -601,5 +601,65 @@
         "nationality": "Korean",
         "agency": "Source Music",
         "bandName": "LE SSERAFIM"
+      },
+      {
+        "name": "Hyebin",
+        "birthday": "1996-01-12",
+        "weight": "48 kg",
+        "height": "165 cm",
+        "nationality": "Korean",
+        "agency": "MLD Entertainment",
+        "bandName": "MOMOLAND",
+        "bandKey": "momoland00"
+      },
+      {
+        "name": "Jane",
+        "birthday": "1997-12-20",
+        "weight": "46 kg",
+        "height": "166 cm",
+        "nationality": "Korean",
+        "agency": "MLD Entertainment",
+        "bandName": "MOMOLAND",
+        "bandKey": "momoland00"
+      },
+      {
+        "name": "Nayun",
+        "birthday": "1998-07-31",
+        "weight": "47 kg",
+        "height": "167 cm",
+        "nationality": "Korean",
+        "agency": "MLD Entertainment",
+        "bandName": "MOMOLAND",
+        "bandKey": "momoland00"
+      },
+      {
+        "name": "JooE",
+        "birthday": "1999-08-18",
+        "weight": "48 kg",
+        "height": "164 cm",
+        "nationality": "Korean",
+        "agency": "MLD Entertainment",
+        "bandName": "MOMOLAND",
+        "bandKey": "momoland00"
+      },
+      {
+        "name": "Ahin",
+        "birthday": "1999-09-27",
+        "weight": "46 kg",
+        "height": "163 cm",
+        "nationality": "Korean",
+        "agency": "MLD Entertainment",
+        "bandName": "MOMOLAND",
+        "bandKey": "momoland00"
+      },
+      {
+        "name": "Nancy",
+        "birthday": "2000-04-13",
+        "weight": "46 kg",
+        "height": "162 cm",
+        "nationality": "Korean-American",
+        "agency": "MLD Entertainment",
+        "bandName": "MOMOLAND",
+        "bandKey": "momoland00"
       }
   ]
