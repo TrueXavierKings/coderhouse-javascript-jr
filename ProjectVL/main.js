@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         const searchTerm = searchInput.value.trim();
 
         if (searchTerm.length < 3) {
-            alert('Por favor ingrese al menos 3 caracteres');
+            Swal.fire(`Por favor ingrese al menos 3 caracteres`);
             return;
         }
 
@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         );
 
         if (filteredBands.length === 0) {
-            alert('No se encontraron coincidencias. Cargando todas las bandas.');
+            Swal.fire(`No se encontraron coincidencias. Cargando todas las bandas.`);
             generateCarouselItems();
         } else {
             generateCarouselItems(filteredBands);
