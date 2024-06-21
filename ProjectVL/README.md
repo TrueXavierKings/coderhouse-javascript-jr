@@ -114,7 +114,7 @@ The members.json file is essential for managing and organizing data related to i
 
 ## Band Directory Creator Script
 
-The `bandDirectoryCreator.ps1` script is a PowerShell script designed to create a directory structure based on the `bands.json` file. Each directory is named using the `key` field from the `bands.json` file.
+The `addBands.ps1` script is a PowerShell script designed to create a directory structure based on the `bands.json` file. Each directory is named using the `key` field from the `bands.json` file.
 
 ### Script Description
 
@@ -131,7 +131,7 @@ This script performs the following steps:
    - Open PowerShell on your system.
 
 2. **Navigate to the Script Directory**:
-   - Change the directory to where the `bandDirectoryCreator.ps1` script is located.
+   - Change the directory to where the `addBands.ps1` script is located.
      ```powershell
      cd path\to\data\batch
      ```
@@ -139,13 +139,47 @@ This script performs the following steps:
 3. **Run the Script**:
    - Execute the script using the following command:
      ```powershell
-     .\bandDirectoryCreator.ps1
+     .\addBands.ps1
      ```
 
 Upon execution, the script will:
 - Load the `bands.json` file.
 - Create directories in the specified base directory using the `key` field from the `bands.json` file.
 - Log messages indicating whether directories were created or already existed.
+
+## Member id add Script
+
+The `addMembers.ps1` script is a PowerShell script designed to add and id to each member based on the `members.json` file.
+
+### Script Description
+
+This script performs the following steps:
+1. Gets the current script directory.
+2. Defines the path to the JSON file (relative to the script location).
+3. For each members it will validate if the `id` field exists, if not, it will generate it and generate a value for it based on other fields of the same element.
+
+### How to Execute the Script
+
+1. **Open PowerShell**:
+   - Open PowerShell on your system.
+
+2. **Navigate to the Script Directory**:
+   - Change the directory to where the `addBands.ps1` script is located.
+     ```powershell
+     cd path\to\data\batch
+     ```
+
+3. **Run the Script**:
+   - Execute the script using the following command:
+     ```powershell
+     .\addMembers.ps1
+     ```
+
+Upon execution, the script will:
+- Load the `members.json` file.
+- Add or validate the `id` field for each member.
+- Create a backup of the original `members.json` file with a timestamp.
+- Save the updated `members.json` file with the `id` field included.
 
 ## Member-Band Key Matcher Script
 

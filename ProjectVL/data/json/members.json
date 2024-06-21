@@ -801,5 +801,16 @@
         "bandName":  "MOMOLAND",
         "bandKey":  "momoland00",
         "id":  "20000413_momoland00_nancy"
+    },
+    {
+        "name":  "Yeonwoo",
+        "birthday":  "1996-08-01",
+        "weight":  "50 kg",
+        "height":  "169 cm",
+        "nationality":  "Korean",
+        "agency":  "MLD Entertainment",
+        "bandName":  "MOMOLAND",
+        "bandKey":  "momoland00",
+        "id":  "19960801_momoland00_yeonwoo"
     }
 ]

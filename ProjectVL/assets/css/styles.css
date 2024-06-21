@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #2b0033;
+  background: linear-gradient(to right, #00020C, #2b0033);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   height: 13vh;
   overflow: hidden;
@@ -32,7 +32,7 @@
 }
 
 .carousel {
-  height: 59vh;
+  height: 55vh;
 }
 .carousel-inner {
   height: 100%;
@@ -70,4 +70,32 @@
   font-weight: 400;
   color: white;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.full-width-space {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  position: absolute;
+  left: 0;
+}
+.content-area {
+  overflow: auto;
+  height: auto;
+  background-color: black;
+  padding-top: 26px;
+}
+.side-area {
+  background-color: #2b0033;
+}
+.card-title {
+  font-weight: bold;
+  font-size: 1rem;
+}
+.card-text {
+  font-size: 0.875rem; /* Smaller text size */
+  margin: 0; /* Reduce spacing between lines */
+}
+.card-body {
+  padding: 0.5rem;
 }

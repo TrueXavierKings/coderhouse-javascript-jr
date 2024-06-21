@@ -54,8 +54,86 @@ function generateCarouselItems(filteredBands) {
     });
 }
 
+function generateMembersCards(filteredMembers) {
+    const membersData = filteredMembers || JSON.parse(localStorage.getItem('members'));
+    if (!membersData) {
+        console.error('No se han encontrado datos de miembros en el localStorage');
+        return;
+    }
+
+    const contentArea = document.querySelector('.content-area');
+    contentArea.innerHTML = '';
+    const row = document.createElement('div');
+    row.className = 'row';
+
+    membersData.forEach(member => {
+        const col = document.createElement('div');
+        col.className = 'col-md-3 mb-3';
+
+        const card = document.createElement('div');
+        card.className = 'card';
+
+        const img = document.createElement('img');
+        img.className = 'card-img-top';
+        img.alt = member.name;
+        const imagePath = `assets/images/members/${member.id}.png`;
+        img.src = imagePath;
+        img.onerror = function() {
+            this.onerror = null;
+            this.src = 'assets/images/members/no-member.png';
+        };
+
+        const cardBody = document.createElement('div');
+        cardBody.className = 'card-body';
+
+        const cardTitle = document.createElement('h5');
+        cardTitle.className = 'card-title';
+        cardTitle.textContent = member.name;
+
+        const birthday = document.createElement('p');
+        birthday.className = 'card-text';
+        birthday.textContent = `Birthday: ${member.birthday}`;
+
+        const weight = document.createElement('p');
+        weight.className = 'card-text';
+        weight.textContent = `Weight: ${member.weight}`;
+
+        const height = document.createElement('p');
+        height.className = 'card-text';
+        height.textContent = `Height: ${member.height}`;
+
+        const nationality = document.createElement('p');
+        nationality.className = 'card-text';
+        nationality.textContent = `Nationality: ${member.nationality}`;
+
+        const agency = document.createElement('p');
+        agency.className = 'card-text';
+        agency.textContent = `Agency: ${member.agency}`;
+
+        const bandName = document.createElement('p');
+        bandName.className = 'card-text';
+        bandName.textContent = `Band Name: ${member.bandName}`;
+
+        cardBody.appendChild(cardTitle);
+        cardBody.appendChild(birthday);
+        cardBody.appendChild(weight);
+        cardBody.appendChild(height);
+        cardBody.appendChild(nationality);
+        cardBody.appendChild(agency);
+        cardBody.appendChild(bandName);
+
+        card.appendChild(img);
+        card.appendChild(cardBody);
+        col.appendChild(card);
+        row.appendChild(col);
+    });
+
+    contentArea.appendChild(row);
+}
+
 document.addEventListener('DOMContentLoaded', (event) => {
     generateCarouselItems();
+    generateMembersCards();
 
     const searchForm = document.getElementById('searchForm');
     const searchInput = document.getElementById('searchInput');
@@ -75,17 +153,36 @@ document.addEventListener('DOMContentLoaded', (event) => {
             return;
         }
 
+        const membersData = JSON.parse(localStorage.getItem('members'));
+        if (!membersData) {
+            console.error('No se han encontrado datos de miembros en el localStorage');
+            return;
+        }
+
         const filteredBands = bandsData.filter(band => 
             Object.values(band).some(value => 
                 value.toString().toLowerCase().includes(searchTerm.toLowerCase())
             )
         );
 
+        const filteredMembers = membersData.filter(member => 
+            Object.values(member).some(value => 
+                value.toString().toLowerCase().includes(searchTerm.toLowerCase())
+            )
+        );
+
+        console.log("Bandas encontradas:")
+        console.table(filteredBands);
+        console.log("Miembros encontradas:")
+        console.table(filteredMembers);
+
         if (filteredBands.length === 0) {
-            Swal.fire(`No se encontraron coincidencias. Cargando todas las bandas.`);
+            Swal.fire(`No se encontraron coincidencias. Cargando todas las bandas y miembros.`);
             generateCarouselItems();
+            generateMembersCards();
         } else {
             generateCarouselItems(filteredBands);
+            generateMembersCards(filteredMembers);
         }
     });
 });
